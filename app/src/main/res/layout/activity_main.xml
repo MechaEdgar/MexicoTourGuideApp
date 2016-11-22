@@ -4,27 +4,31 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorTanBackground"
     android:orientation="vertical"
     tools:context="com.example.android.mexicocitytourguideapp.MainActivity">
 
     <TextView
+        android:id="@+id/monuments"
         style="@style/CategoryStyle"
         android:background="@color/colorCategoryMonuments"
         android:text="Historical Monuments" />
 
     <TextView
+        android:id="@+id/tacos"
         style="@style/CategoryStyle"
         android:background="@color/colorCategoryTacos"
-        android:text="Best TACOS in Town"
-        />
+        android:text="Best TACOS in Town" />
+
     <TextView
+        android:id="@+id/museums"
         style="@style/CategoryStyle"
         android:background="@color/colorCategoryMuseums"
-        android:text="Museums"
-        />
+        android:text="Museums" />
+
     <TextView
+        android:id="@+id/bakeries"
         style="@style/CategoryStyle"
         android:background="@color/colorCategoryBakeries"
-        android:text="Best Bakeries"
-        />
+        android:text="Best Bakeries" />
 </LinearLayout>
