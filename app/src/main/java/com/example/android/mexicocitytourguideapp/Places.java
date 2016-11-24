@@ -27,7 +27,7 @@ public class Places {
      * @param directionOfAttraction   is the direction  of the Place
      * @param descriptionOfAttraction is the description of the Place
      */
-    public Places(String nameOfAttraction, String directionOfAttraction, String descriptionOfAttraction) {
+    public Places(int nameOfAttraction, int directionOfAttraction, int descriptionOfAttraction) {
         mNameOfAttraction = nameOfAttraction;
         mDirectionOfAttraction = directionOfAttraction;
         mDescriptionOfAttraction = descriptionOfAttraction;
@@ -41,7 +41,7 @@ public class Places {
      * @param descriptionOfAttraction is the description of the Place
      * @param imageResourceId         is the drawable resource ID for the asset
      **/
-    public Places(String nameOfAttraction, String directionOfAttraction, String descriptionOfAttraction,
+    public Places(int nameOfAttraction, int directionOfAttraction, int descriptionOfAttraction,
                   int imageResourceId) {
         mNameOfAttraction = nameOfAttraction;
         mDirectionOfAttraction = directionOfAttraction;
@@ -53,21 +53,21 @@ public class Places {
     /**
      * Get the Place name
      */
-    public String getNameOfAttraction() {
+    public int getNameOfAttraction() {
         return mNameOfAttraction;
     }
 
     /**
      * Get the direction of the Place
      */
-    public String getDirectionOfAttraction() {
+    public int getDirectionOfAttraction() {
         return mDirectionOfAttraction;
     }
 
     /**
      * Get the Description of the Place
      */
-    public String getDescriptionOfAttraction() {
+    public int getDescriptionOfAttraction() {
         return mDescriptionOfAttraction;
     }
 

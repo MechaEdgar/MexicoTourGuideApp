@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MexicoCityTourGuideApp</string>
+    <string name="bakeryDescription1">Teo Luncheonette Restaurant OFFERS Healthy Food and Bakery with freshly baked cakes</string>
+    <string name="bakeryDescription2">"SanPastel is a true cult for desserts, this is practiced in the Condesa to be called the paradise of cakes, pies and breads with chocolate "</string>
+    <string name="bakeryDescription3">" Is a restaurant and cafeteria that offers Spanish food, especially its delicious tartines and spreads in the picnic style"</string>
+    <string name="bakeryDescription4">" Bakery and pastry created by Julien de Bellaigue and Eric Lenoir with classic breads and coffee from French gastronomy"</string>
+    <string name="description1">The monument to the Revolution is an architectural work and a mausoleum dedicated to the commemoration of the Mexican Revolution.</string>
+    <string name="description2">" The monument to independence, popularly known as the Angel, is located in Mexico City, at the roundabout located at the confluence of Paseo de la Reforma"</string>
+    <string name="description3">"The Hemicycle to Juárez is a cenotaph of the City of Mexico, located in the Central Alameda of the Historical Center "</string>
+    <string name="museumsDescription1">"This enclosure was built between 1963 and 1964 in view of the need for a special place to protect part of the collections that were initially preserved in the Moneda Palace. "</string>
+    <string name="museumsDescription2">" During the period of independent Mexico, Chapultepec served as a presidential residence where figures like Sebastián Lerdo de Tejada and Gral Porfirio Díaz lived, maintaining this function until the government of Lázaro Cárdenas who, in 1944, left this magnificent setting to settle in Los Pinos . From September 27 of that same year, El Castillo de Chapultepec would house the National History Museum."</string>
+    <string name="museumsDescription3">The collection of this site was formed from collections of other museums to integrate a global vision of the evolution of Mexican art, from its beginnings in the colonial period, until the first part of the twentieth century.</string>
+    <string name="museumsDescription4">" Franz Mayer was a German-born, naturalized Mexican antiquarian who, throughout his life, collected a large amount of artistic objects. Upon his death, the vast collection was donated to the people of Mexico and deposited for exhibition in this important museum."</string>
+    <string name="museumsDescription5">" In the eight rooms that make up this enclosure, a great majority of the pieces found during the different periods of archaeological excavation from 1978 to the present day are exhibited. In them the evolution of the Mexica people is narrated, starting from its mythical pilgrimage from Aztlán in search of the promised land, until the foundation of the great Tenochtitlan."</string>
+    <string name="tacosDescription1">" In 1962 it opened its doors and since then it has not stopped its fruitful race elaborating its famous charcoal tacos that threw it to the great leagues of the taquerías. Its success is such that it now has its own chain of butchers."</string>
+    <string name="tacosDescription2">These tacos have been popularized by the bohemians and moviegoers who attend the Cineteca Nacional as it is a classic of the area and even for many it became a true tradition to pass through some \"Chupas\".</string>
+    <string name="tacosDescription3">" Good attention and excellent services: TV with \"the best sporting events\", terrace, wifi, and valet parking. The identity and its decoration are very influenced to the bullfighting."</string>
+    <string name="tacosDescription4">"Modern and elegant taqueria. Their success is such that most of the time it is bursting even though they actually use a very wide place. "</string>
+    <string name="tacosDescription5">"This restaurant and taqueria has more than 60 years serving succulent Mexican dishes. Their fame lies in their carnitas tacos with that providential touch with which they have conquered their fans for decades. "</string>
+</resources>
