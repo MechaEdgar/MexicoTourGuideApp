@@ -7,13 +7,13 @@ package com.example.android.mexicocitytourguideapp;
 public class Places {
 
     //Name of the place
-    private String mNameOfAttraction;
+    private int mNameOfAttraction;
 
     //Direction of the place
-    private String mDirectionOfAttraction;
+    private int mDirectionOfAttraction;
 
     //Description of the place
-    private String mDescriptionOfAttraction;
+    private int mDescriptionOfAttraction;
 
     //Image resource ID for the Place
     private int mImageResourceId = NO_IMAGE_PROVIDED;
