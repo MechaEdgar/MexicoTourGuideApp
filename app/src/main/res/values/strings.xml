@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">MexicoCityTourGuideApp</string>
+    <string name="monumento1">Monumento a la Revolucion</string>
+    <string name="direccion1">Plaza de la República S/N,Tabacalera</string>
+    <string name="description1">El monumento a la Revolucíon es una obra arquitectonica y un mausoleo dedicado a la conmemoracion de la Revolucion Mexicana.</string>
 </resources>
