@@ -15,9 +15,9 @@ public class MonumentsActivity extends AppCompatActivity {
         setContentView(R.layout.attractions_list);
 
         ArrayList<Places> placesList = new ArrayList<Places>();
-        placesList.add(new Places(R.string.monument1,R.string.address1,R.string.description1,R.mipmap.ic_launcher));
-        placesList.add(new Places(R.string.monument2,R.string.address2,R.string.description2,R.mipmap.ic_launcher));
-        placesList.add(new Places(R.string.monument3,R.string.address3,R.string.description3,R.mipmap.ic_launcher));
+        placesList.add(new Places(R.string.monument1,R.string.address1,R.string.description1,R.drawable.maxresdefault));
+        placesList.add(new Places(R.string.monument2,R.string.address2,R.string.description2,R.drawable.angeldelainde));
+        placesList.add(new Places(R.string.monument3,R.string.address3,R.string.description3,R.drawable.monumentoajuarez));
 
 
     //Create an {@link PlacesAdapter}, whose data source is a list of {@link Places}

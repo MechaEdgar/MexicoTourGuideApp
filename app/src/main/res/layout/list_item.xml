@@ -19,27 +19,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+       android:padding="16dp"
         >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Name:"
-            />
+
         <TextView
             android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            style="@style/TitleStyle"
             tools:text="name"
             />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Address:"
-            />
+
         <TextView
             android:id="@+id/direction"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            style="@style/TitleStyle"
             tools:text="direction"
             />
         <TextView
