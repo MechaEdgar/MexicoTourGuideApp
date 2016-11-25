@@ -18,4 +18,8 @@
     <string name="tacosDescription3">" Good attention and excellent services: TV with \"the best sporting events\", terrace, wifi, and valet parking. The identity and its decoration are very influenced to the bullfighting."</string>
     <string name="tacosDescription4">"Modern and elegant taqueria. Their success is such that most of the time it is bursting even though they actually use a very wide place. "</string>
     <string name="tacosDescription5">"This restaurant and taqueria has more than 60 years serving succulent Mexican dishes. Their fame lies in their carnitas tacos with that providential touch with which they have conquered their fans for decades. "</string>
+    <string name="bakeriesCategory">Best Bakeries</string>
+    <string name="monumentsCategory">Historical Monuments</string>
+    <string name="museumsCategory">Museums</string>
+    <string name="tacosCategory">Best TACOS in Town</string>
 </resources>

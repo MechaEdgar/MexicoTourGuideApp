@@ -17,47 +17,45 @@ import java.util.ArrayList;
 
 public class PlacesAdapter extends ArrayAdapter<Places> {
 
-    public PlacesAdapter(Activity context, ArrayList<Places> places){
-        super(context,0,places);
+    public PlacesAdapter(Activity context, ArrayList<Places> places) {
+        super(context, 0, places);
     }
-
     @NonNull
     @Override
-    public View getView(int position, View convertView, ViewGroup parent){
+    public View getView(int position, View convertView, ViewGroup parent) {
         //Check if the existing view is beign reused, otherwhise inflate the view
         View listItemView = convertView;
-        if(listItemView == null) {
+        if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
         }
         //Get the {@link Place} object located at this position in the list
         Places currentPlace = getItem(position);
 
-        //Find the TextView in the list_itemut with the id name
+        //Find the TextView in the list_item.xml with the id name
         TextView nameTextView = (TextView) listItemView.findViewById(R.id.name);
         //Get the name from the current Places object and set this text on the monuments Textview
         nameTextView.setText(currentPlace.getNameOfAttraction());
 
-        //Find the TextView in the list_itemut with the id name
+        //Find the TextView in the list_item.xml with the id name
         TextView directionTextView = (TextView) listItemView.findViewById(R.id.direction);
         //Get the name from the current Places object and set this text on the monuments Textview
         directionTextView.setText(currentPlace.getDirectionOfAttraction());
 
-        //Find the TextView in the list_itemut with the id name
+        //Find the TextView in the list_item.xml with the id name
         TextView descriptionTextView = (TextView) listItemView.findViewById(R.id.description);
         //Get the name from the current Places object and set this text on the monuments Textview
         descriptionTextView.setText(currentPlace.getDescriptionOfAttraction());
 
         //Find the ImageView in the list_item.xml layout with the ID image
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.picture);
-        if(currentPlace.hasImage()) {
+        if (currentPlace.hasImage()) {
             //Get the version number from the current Word object and
             //set this image ton the Textview
             imageView.setImageResource(currentPlace.getImageResourceId());
-        }else{
+        } else {
             imageView.setVisibility(View.GONE);
         }
-
         // Return the whole list item layout so that can be shown in the ListView
         return listItemView;
     }

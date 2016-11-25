@@ -1,9 +1,7 @@
 package com.example.android.mexicocitytourguideapp;
-
 /**
  * Created by ed on 23/11/2016.
  */
-
 public class Places {
 
     //Name of the place
@@ -19,7 +17,6 @@ public class Places {
     private int mImageResourceId = NO_IMAGE_PROVIDED;
 
     private static final int NO_IMAGE_PROVIDED = -1;
-
     /**
      * Defining the Places constructor with 3 strings and no int for ----- activities
      *
@@ -32,7 +29,6 @@ public class Places {
         mDirectionOfAttraction = directionOfAttraction;
         mDescriptionOfAttraction = descriptionOfAttraction;
     }
-
     /**
      * Defining the Places constructor with 3 strings and 1 int for ----- activities
      *
@@ -47,37 +43,31 @@ public class Places {
         mDirectionOfAttraction = directionOfAttraction;
         mDescriptionOfAttraction = descriptionOfAttraction;
         mImageResourceId = imageResourceId;
-
     }
-
     /**
      * Get the Place name
      */
     public int getNameOfAttraction() {
         return mNameOfAttraction;
     }
-
     /**
      * Get the direction of the Place
      */
     public int getDirectionOfAttraction() {
         return mDirectionOfAttraction;
     }
-
     /**
      * Get the Description of the Place
      */
     public int getDescriptionOfAttraction() {
         return mDescriptionOfAttraction;
     }
-
     /**
      * Get the Image resource ID of the word
      */
     public int getImageResourceId() {
         return mImageResourceId;
     }
-
     /*
     Returns wheter or not there is an image for this Place.
     @return boolean true or false
