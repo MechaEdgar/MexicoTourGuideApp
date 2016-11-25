@@ -37,4 +37,3 @@ public class TacosActivity extends AppCompatActivity {
         ListView.setAdapter(adapter);
     }
 }
-/*Tacos!*/
