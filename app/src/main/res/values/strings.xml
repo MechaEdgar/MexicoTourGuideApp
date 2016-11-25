@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">MexicoCityTourGuideApp</string>
+    <!-- Strings for activity_main.xml -->
+    <string name="monumentsCategory">Monumentos Historicos</string>
+    <string name="tacosCategory">Los mejores Tacos de la ciudad.</string>
+    <string name="museumsCategory">Museos</string>
+    <string name="bakeriesCategory">Panaderias</string>
     <!-- Monuments, Direction and Description for the MonumentsActivity.java ArrayList<Places> -->
     <string name="monument1" translatable="false">Monumento a la Revolucion</string>
     <string name="address1" translatable="false">Plaza de la República S/N,Tabacalera</string>

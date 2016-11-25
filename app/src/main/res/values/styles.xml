@@ -20,9 +20,8 @@
     </style>
 
     <!--Style for the items in list_item.xml -->
-    <style name = "TitleStyle">
+    <style name="TitleStyle">
         <item name="android:textStyle">bold</item>
         <item name="android:paddingBottom">2dp</item>
     </style>
-
 </resources>

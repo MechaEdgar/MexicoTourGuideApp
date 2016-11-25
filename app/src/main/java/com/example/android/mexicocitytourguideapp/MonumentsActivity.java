@@ -15,15 +15,13 @@ public class MonumentsActivity extends AppCompatActivity {
         setContentView(R.layout.attractions_list);
 
         ArrayList<Places> placesList = new ArrayList<Places>();
-        placesList.add(new Places(R.string.monument1,R.string.address1,R.string.description1,R.drawable.maxresdefault));
-        placesList.add(new Places(R.string.monument2,R.string.address2,R.string.description2,R.drawable.angeldelainde));
-        placesList.add(new Places(R.string.monument3,R.string.address3,R.string.description3,R.drawable.monumentoajuarez));
+        placesList.add(new Places(R.string.monument1, R.string.address1, R.string.description1, R.drawable.maxresdefault));
+        placesList.add(new Places(R.string.monument2, R.string.address2, R.string.description2, R.drawable.angeldelainde));
+        placesList.add(new Places(R.string.monument3, R.string.address3, R.string.description3, R.drawable.monumentoajuarez));
 
-
-    //Create an {@link PlacesAdapter}, whose data source is a list of {@link Places}
+        //Create an {@link PlacesAdapter}, whose data source is a list of {@link Places}
         //The adapter knows how to create list items for each item in the list.
-                PlacesAdapter adapter = new PlacesAdapter(this, placesList);
-
+        PlacesAdapter adapter = new PlacesAdapter(this, placesList);
 
         /*Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         There should be a {@link ListView} with the view ID called list, wich is declared in

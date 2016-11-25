@@ -9,40 +9,36 @@
 
     <ImageView
         android:id="@+id/picture"
-        android:layout_width="88dp"
-        android:layout_height="88dp"
-        android:src="@mipmap/ic_launcher"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:paddingTop="10dp"
+        tools:src="@mipmap/ic_launcher" />
 
-        />
     <LinearLayout
         android:id="@+id/text_container"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-       android:padding="16dp"
-        >
+        android:padding="16dp">
 
         <TextView
             android:id="@+id/name"
+            style="@style/TitleStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/TitleStyle"
-            tools:text="name"
-            />
+            tools:text="name" />
 
         <TextView
             android:id="@+id/direction"
+            style="@style/TitleStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/TitleStyle"
-            tools:text="direction"
-            />
+            tools:text="direction" />
+
         <TextView
             android:id="@+id/description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="description"
-            />
+            tools:text="description" />
     </LinearLayout>
-
 </LinearLayout>

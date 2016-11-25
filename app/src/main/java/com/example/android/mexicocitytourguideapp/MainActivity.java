@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //Make a Toast that shows what activity are you opening
-                Toast.makeText(v.getContext(),"Open the bakeries category",Toast.LENGTH_SHORT).show();
+                Toast.makeText(v.getContext(), "Open the bakeries category", Toast.LENGTH_SHORT).show();
                 //Create a new intent to open {@link BakeriesActivity}
                 Intent bakeriesIntent = new Intent(MainActivity.this,
                         BakeriesActivity.class);
