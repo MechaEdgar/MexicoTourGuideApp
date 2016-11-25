@@ -1,6 +1,77 @@
 <resources>
     <string name="app_name">MexicoCityTourGuideApp</string>
-    <string name="monumento1">Monumento a la Revolucion</string>
-    <string name="direccion1">Plaza de la República S/N,Tabacalera</string>
+    <!-- Strings for activity_main.xml -->
+    <string name="monumentsCategory">Monumentos Historicos</string>
+    <string name="tacosCategory">Los mejores Tacos de la ciudad.</string>
+    <string name="museumsCategory">Museos</string>
+    <string name="bakeriesCategory">Panaderias</string>
+    <!-- Monuments, Direction and Description for the MonumentsActivity.java ArrayList<Places> -->
+    <string name="monument1" translatable="false">Monumento a la Revolucion</string>
+    <string name="address1" translatable="false">Plaza de la República S/N,Tabacalera</string>
     <string name="description1">El monumento a la Revolucíon es una obra arquitectonica y un mausoleo dedicado a la conmemoracion de la Revolucion Mexicana.</string>
+    <string name="monument2" translatable="false">Angel de la independencia</string>
+    <string name="address2" translatable="false">Paseo de la reforma y Eje 2PTE</string>
+    <string name="description2">El monumento a la independencia,conocido popularmente como el Angel,se encuentra en la ciudad de
+                        México , en la glorieta localizada en la confluencia de Paseo de la Reforma</string>
+    <string name="monument3" translatable="false">Hemiciclo a Juárez</string>
+    <string name="address3" translatable="false">Av.Juárez s/n, Cuauhtémoc,Centro</string>
+    <string name="description3">El Hemiciclo a Juárez es un canotafio de la Ciudad de México, ubicado en la Alameda Central del
+                        Centro Histórico</string>
+
+    <!-- Bakeries, Direction and Description for the BakeriesActivity.java ArrayList<Places> -->
+    <string name="bakery1" translatable="false">Teo Luncheonette</string>
+    <string name="bakeryAddress1" translatable="false">Havre 83, Juárez</string>
+    <string name="bakeryDescription1">Restaurante Teo Luncheonette ofrece comida saludable y panadería con bizcochos recién horneados</string>
+    <string name="bakery2" translatable="false">SanPastel</string>
+    <string name="bakeryAddress2" translatable="false">Campeche 429, Condesa</string>
+    <string name="bakeryDescription2">Sanpastel es un auténtico culto hacia los postres, éste se practica en la Condesa para ser llamado el paraíso de pasteles, tartas y panes con chocolate</string>
+    <string name="bakery3" translatable="false">Aimée Sidewalk Cafe and Tartinery</string>
+    <string name="bakeryAddress3" translatable="false">Chilpancingo 7, Condesa</string>
+    <string name="bakeryDescription3">Aimée Sidewalk Cafe and Tartinery es un restaurante y cafetería que brinda comida española, especialmente sus deliciosos tartines y spreads al estilo picnic</string>
+    <string name="bakery4" translatable="false">Ficelle Boulangerie Patisserie</string>
+    <string name="bakeryAddress4" translatable="false">Av. Tamaulipas 39, Condesa</string>
+    <string name="bakeryDescription4">Ficelle Boulangerie Patisserie: Panadería y pastelería creada por Julien de Bellaigue y Eric Lenoir con panes y café clásicos de la gastronomía francesa</string>
+
+    <!-- Restaurants of Tacos, Direction and Description for the TacosActivity.java ArrayList<Places> -->
+    <string name="tacos1" translatable="false">El Farolito</string>
+    <string name="tacosAddress1" translatable="false">Tacámbaro No.4 PB Col. Hipódromo Condesa Cuauhtémoc</string>
+    <string name="tacosDescription1">En 1962 abrió sus puertas y desde entonces no ha parado su fructífera carrera elaborando sus famosos tacos al carbón que lo lanzaron a las grandes ligas de las taquerías. Su éxito es tal que ahora cuenta con su propia cadena de carnicerías.</string>
+
+    <string name="tacos2" translatable="false">El Chupacabras</string>
+    <string name="tacosAddress2" translatable="false">Lateral Churubusco s/n (junto al Sanborn´s del centro comercial Coyoacán), Coyoacán, DF.</string>
+    <string name="tacosDescription2">Estos tacos se han popularizado por los bohemios y cinéfilos que asisten a la Cineteca Nacional ya que es un clásico de la zona y hasta para muchos se volvió una verdadera tradición pasar por unos “Chupas”.</string>
+
+    <string name="tacos3" translatable="false">El Villamelón</string>
+    <string name="tacosAddress3" translatable="false">Tintorero 123 col. De los deportes delegación Benito Juárez</string>
+    <string name="tacosDescription3">Buena atención y excelentes servicios: TV con “los mejores eventos deportivos”, terraza, wifi, y valet parking. La identidad y su decorado van muy influenciados  a la tauromaquia. </string>
+
+    <string name="tacos4" translatable="false">El Califa</string>
+    <string name="tacosAddress4" translatable="false">Altata 22, Condesa, DF</string>
+    <string name="tacosDescription4">Taquería moderna y elegante. Su éxito es tal que la mayoría de veces está a reventar aunque en realidad usen lugar muy amplio.</string>
+
+    <string name="tacos5" translatable="false">Los Panchos</string>
+    <string name="tacosAddress5" translatable="false">Tolstoi N°9 col Anzures DF</string>
+    <string name="tacosDescription5">Este Restaurante y taquería tiene más de 60 años sirviendo suculentos platillos mexicanos. Su fama radica en sus tacos de carnitas con ese toque providencial con el que han conquistado a sus fans por décadas. </string>
+
+    <!-- Museums, Direction and Description for the MuseumsActivity.java ArrayList<Places> -->
+    <string name="museums1" translatable="false">Museo Nacional De Antropología</string>
+    <string name="museumsAddress1" translatable="false">Paseo de la Reforma y Gandhi, Bosque de Chapultepec, Ciudad de México.</string>
+    <string name="museumsDescription1">Este recinto fue construido entre 1963 y 1964 ante la necesidad de un lugar especial para resguardar parte de las colecciones que en un inicio se conservaban en el Palacio de Moneda.  </string>
+
+    <string name="museums2" translatable="false">Castillo De Chapultepec</string>
+    <string name="museumsAddress2" translatable="false">Bosque de Chapultepec, Ciudad de México.</string>
+    <string name="museumsDescription2">Durante el periodo del México independiente, Chapultepec sirvió como residencia presidencial donde vivieron figuras como Sebastián Lerdo de Tejada y el Gral. Porfirio Díaz, manteniendo esta función hasta el gobierno del Lázaro Cárdenas quien, en 1944, abandonó este magnífico escenario para establecerse en Los Pinos. A partir del 27 de septiembre de ese mismo año, El Castillo de Chapultepec alojaría al Museo Nacional de Historia.</string>
+
+    <string name="museums3" translatable="false">Museo Nacional De Arte</string>
+    <string name="museumsAddress3" translatable="false">Tacuba núm. 8, Colonia Centro, Ciudad de México.</string>
+    <string name="museumsDescription3">La colección de este recinto fue formada a partir de acervos de otros museos para integrar una visión global de la evolución del arte mexicano, desde sus inicios en la época colonial, hasta la primera parte del siglo XX.</string>
+
+    <string name="museums4" translatable="false">Museo Franz Mayer</string>
+    <string name="museumsAddress4" translatable="false">Hidalgo núm. 45. Centro Histórico, Ciudad de México.</string>
+    <string name="museumsDescription4">Franz Mayer fue un anticuario de origen alemán naturalizado mexicano que, a lo largo de su vida, reunió una gran cantidad de objetos artísticos. A su muerte, la vastísima colección fue donada al pueblo de México y depositada para su exhibición en este importante museo.</string>
+
+    <string name="museums5" translatable="false">Museo Del Templo Mayor</string>
+    <string name="museumsAddress5" translatable="false">Seminario y Guatemala, Centro Histórico, Ciudad de México.</string>
+    <string name="museumsDescription5">En las ocho salas que conforman este recinto se exhibe una gran mayoría de las piezas encontradas durante las diferentes temporadas de excavación arqueológica desde 1978 hasta nuestros días. En ellas se narra la evolución del pueblo mexica, a partir de su mítica peregrinación desde Aztlán en busca de la tierra prometida, hasta la fundación de la gran Tenochtitlan.</string>
+
 </resources>

@@ -12,23 +12,23 @@
         android:id="@+id/monuments"
         style="@style/CategoryStyle"
         android:background="@color/colorCategoryMonuments"
-        android:text="Historical Monuments" />
+        android:text="@string/monumentsCategory" />
 
     <TextView
         android:id="@+id/tacos"
         style="@style/CategoryStyle"
         android:background="@color/colorCategoryTacos"
-        android:text="Best TACOS in Town" />
+        android:text="@string/tacosCategory" />
 
     <TextView
         android:id="@+id/museums"
         style="@style/CategoryStyle"
         android:background="@color/colorCategoryMuseums"
-        android:text="Museums" />
+        android:text="@string/museumsCategory" />
 
     <TextView
         android:id="@+id/bakeries"
         style="@style/CategoryStyle"
         android:background="@color/colorCategoryBakeries"
-        android:text="Best Bakeries" />
+        android:text="@string/bakeriesCategory" />
 </LinearLayout>
